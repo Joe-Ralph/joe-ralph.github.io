@@ -105,7 +105,7 @@ const CONFIG = {
       companyLink: 'https://www.gofrugal.com/',
     },
     {
-      company: Gofrugal Technologies',
+      company: 'Gofrugal Technologies',
       position: 'Member of Technical Staff',
       from: 'July 2019',
       to: 'August 2021',
