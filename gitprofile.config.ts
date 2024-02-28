@@ -12,9 +12,9 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,30 +25,30 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Joe-Ralph/codeitksscode', 'Joe-Ralph/Creazone'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      // header: 'My Projects',
+      // // To hide the `External Projects` section, keep it empty.
+      // projects: [
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      // ],
     },
   },
   seo: {
@@ -112,14 +112,114 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
+
+
+certifications: [
+{
+"name": "Java Top 25%",
+"body": "Test Dome Certification",
+"year": "2024",
+"link": ""
+},
+{
+"name": "Kubernetes for the Absolute Beginners - Hands-on Tutorial",
+"body": "KodeKloud",
+"year": "2024",
+"link": ""
+},
+{
+"name": "Software Engineer",
+"body": "HackerRank",
+"year": "2024",
+"link": "",
+"skills": "REST APIs, SQL, Python (Programming Language)"
+},
+{
+"name": "Getting started with Devops on AWS",
+"body": "Amazon Web Services (AWS)",
+"year": "2023",
+"link": "",
+"skills": "DevOps, Amazon Web Services (AWS)"
+},
+{
+"name": "Getting Started with DevOps using Azure DevOps & Docker",
+"body": "Udemy",
+"year": "2020",
+"link": "",
+"credential_id": "UC-6a233923-8ace-4e2f-9371-1a2b5f3cf970"
+},
+{
+"name": "Linux for Cloud and DevOps Engineers",
+"body": "Udemy",
+"year": "2020",
+"link": "",
+"credential_id": "UC-279ca450-9496-45bb-9775-b6c3f8bea826"
+},
+{
+"name": "React JS - A Complete Guide for Frontend Web Development",
+"body": "Udemy",
+"year": "2020",
+"link": ""
+},
+{
+"name": "Step into Robotic Process Automation",
+"body": "GUVI Geek Networks, IITM Research Park",
+"year": "2020",
+"link": "",
+"credential_id": "8Ta7bK1955O098h197"
+},
+{
+"name": "Fundamentals of Digital Marketing",
+"body": "Google",
+"year": "2020",
+"link": "",
+"credential_id": "CED L5E KP6"
+},
+{
+"name": "Intro to Node JS and Express",
+"body": "Udemy",
+"year": "2020",
+"link": "",
+"credential_id": ""
+},
+{
+"name": "Javascript and JQuery from Scratch",
+"body": "Eduonix Learning Solutions Pvt Ltd",
+"year": "2020",
+"link": "",
+"credential_id": ""
+},
+{
+"name": "Svelte JS - The Complete Guide (incl. sapper)",
+"body": "Udemy",
+"year": "2020",
+"link": "",
+"credential_id": ""
+},
+{
+"name": "The Complete Typescript Programming Guide",
+"body": "Eduonix Learning Solutions Pvt Ltd",
+"year": "2020",
+"link": "",
+"credential_id": ""
+},
+{
+"name": "Web Development from Scratch",
+"body": "Eduonix Learning Solutions Pvt Ltd",
+"year": "2020",
+"link": "",
+"credential_id": ""
+}
+],
+  
   educations: [
     {
       institution: 'National Engineering College',
